@@ -1,4 +1,4 @@
-import '7.클래스.dart';
+import '7. 클래스.dart';
 
 class Orbiter extends Spacecraft {
   num altitude;
