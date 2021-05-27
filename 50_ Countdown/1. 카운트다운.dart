@@ -6,6 +6,7 @@ void main() {
   Timer.periodic(oneSec, (Timer t){
     if(time < 1) {
       t.cancel();
+      print("끝이여");
     }
     print(time--);
   });
